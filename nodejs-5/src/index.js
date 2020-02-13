@@ -1,11 +1,4 @@
-//const server = require('./server')
-const fs = require('fs')
-const JSONfile = fs.readFileSync('../imdb-movies.json', 'utf-8')
+const server = require('./server')
+server.start()
 
-let filmes = JSON.parse(JSONfile)
-
-const randomMovie = () => Math.floor(Math.random() * filmes.filter(encontrar => encontrar.Director).map(film => film.Title))
-
-console.log(randomMovie())
-
-//server.start()
+// Estar arquivo você roda para testar sua API
