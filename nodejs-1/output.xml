@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.119" tests="6" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-02-13T01:04:17" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Fifa data processing" timestamp="2020-02-13T01:04:17" tests="6" file="/Users/patrickcruz/codenation/nodejs-1/test/submit.test.js" failures="2" time="0.119">
+    <testcase name="Fifa data processing q1" time="0.013" classname="q1">
+    </testcase>
+    <testcase name="Fifa data processing q2" time="0.017" classname="q2">
+    </testcase>
+    <testcase name="Fifa data processing q3" time="0.001" classname="q3">
+    </testcase>
+    <testcase name="Fifa data processing q4" time="0.048" classname="q4">
+      <failure message="expected [ Array(10) ] to have the same members as [ Array(10) ]" type="AssertionError"><![CDATA[AssertionError: expected [ Array(10) ] to have the same members as [ Array(10) ]
+    at Context.<anonymous> (test/submit.test.js:47:32)
+    at processImmediate (internal/timers.js:445:21)]]></failure>
+    </testcase>
+    <testcase name="Fifa data processing q5" time="0.026" classname="q5">
+      <failure message="expected [ Array(10) ] to have the same members as [ Array(10) ]" type="AssertionError"><![CDATA[AssertionError: expected [ Array(10) ] to have the same members as [ Array(10) ]
+    at Context.<anonymous> (test/submit.test.js:64:32)
+    at processImmediate (internal/timers.js:445:21)]]></failure>
+    </testcase>
+    <testcase name="Fifa data processing q6" time="0.014" classname="q6">
+    </testcase>
+  </testsuite>
+</testsuites>
