@@ -2,7 +2,10 @@ const express = require('express')
 const app = express()
 
 app.get('/v1/movie', async (req, res, next) => {
-  res.status(501).send('Not Implemented')
+  const random = Math.floor(Math.random() * (1000 - 1) - 1)
+  const movie = fileJson.find(item => item.Rank === random)
+  res.json({director: movie.Director, movie: movie.Title })
+
 })
 
 app.get('/v1/movie/:director', async (req, res, next) => {
