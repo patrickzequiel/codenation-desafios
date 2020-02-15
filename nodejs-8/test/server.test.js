@@ -143,9 +143,8 @@ afterEach(() => cleanDB())
         "sex": "Fêmea",
         "color": "Malhada",
         "image_url": ""
-      }
       })
-
+  
     expect(res.statusCode).toEqual(201)
     expect(res.body).toMatchObject({
       "pet_name": "Tereza Fernandes Montalvão",
